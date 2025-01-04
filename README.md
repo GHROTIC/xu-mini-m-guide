@@ -58,7 +58,7 @@ https://github.com/shauninman/Moss-magicmini (Try the DTB files here if your sys
 
 ### ~ ROCKNIX ~
 
-A Firmware based upon JELOS and has a similar feature set to PlumOS/AmberELEC, supporting both Single Card and 2 Card Setups. A stable Firmware option if you would like to use a Wifi/Ethernet USB Dongle for the Scraper or Retrachievements. Oddly the main User Interface runs at a noticibly low framerate with no known way to change this in the settings. Based on repeated testing with the last two versions of the main ROCKNIX distribution, the N64 and Dreamcast performance is far worse compared to other Firmware; PSX and PSP perform aproximately the same. This Firmware may be a good option if you have no plans to play any N64 or Dreamcast titles.
+A Firmware based upon JELOS and has a similar feature set to PlumOS/AmberELEC, supporting both Single Card and 2 Card Setups. A stable Firmware option if you would like to use a Wifi/Ethernet USB Dongle for the Scraper or Retroachievements. Oddly the main User Interface runs at a noticibly low framerate with no known way to change this in the settings. Based on repeated testing with the last two versions of the main ROCKNIX distribution, the N64 and Dreamcast performance is far worse compared to other Firmware; PSX and PSP perform aproximately the same. This Firmware may be a good option if you have no plans to play any N64 or Dreamcast titles.
 
 https://github.com/ROCKNIX/distribution
 
