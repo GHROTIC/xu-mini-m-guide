@@ -31,7 +31,7 @@
 
 <br>
 
-## Detailed notes of each OS:
+## Detailed notes for each OS:
 
 ### ~ Stock ~
 
@@ -45,15 +45,17 @@ https://github.com/game-de-it/XU_MINI_M/releases/tag/XU_MINI_M_StockOS_20240811 
 
 ### ~ PlumOS ~
 
-The main firmware available for the MiniM that is a modification of the Stock Firmware, supporting both Single Card and 2 Card Setups. Starting with version 0.4, this modification was based off of the V2 version of the Stock Firmware that broke the Scraper functionality. The DTB file that determines the Max Clock Speed of the Ram, CPU and CPU has been set to an overclock by default. Depending on the quality of the ram in your device, this can cause the device to crash unless you replace the DTB file with one using reduced Clock Speeds. Overall a generally usable firmware but still has many bugs and flaws that cannot be fixed from it being based on the Stock Firmware. I recommend using 0.10 Stable due to additional bugs that crept into the final 1.0 version. If your system crashes randomly you may need to replace the dtb file on your SD1 card.
+The main firmware available for the MiniM that is a modification of the Stock Firmware, supporting both Single Card and 2 Card Setups. Starting with version 0.4, this modification was based off of the V2 version of the Stock Firmware that broke the Scraper functionality. The DTB file that determines the Max Clock Speed of the Ram, CPU and CPU has been set to an overclock by default. Depending on the quality of the Ram in your device, this can cause your device to crash unless you replace the DTB file with one using reduced Clock Speeds. Overall a generally usable Firmware but still has some quirks that cannot be fixed from it being based on the Stock Firmware. Personally I recommend using 0.10 Stable due to additional bugs that crept into the final 1.0 version. If your system crashes or does not always boot correctly, you can replace the DTB file on your SD1 card with one of the alternate versions found on the MinUI MOSS link.
 
 https://github.com/game-de-it/XU_MINI_M/releases/tag/plumOS_XU_MINI_M_0.10 (Download the three 0.10 Stable files and open .001 with 7zip)
+<br>
+https://github.com/shauninman/Moss-magicmini (Try the DTB files here if your system is unstable)
 
 <br>
 
 ### ~ ROCKNIX ~
 
-A firmware based upon JELOS and has a similar feature set to PlumOS/AmberELEC, supporting both Single Card and 2 Card Setups. More stable than PlumOS but has some strange performance issues. The main interface runs at a noticibly low framerate with no known way to resolve this. Based on repeated testing with the main ROCKNIX distribution Most of my conclusions haven't changed so far. The performance is far worse on N64 and Dreamcast compared to PlumOS and ArkOS. PSX and PSP are aprox the same as PlumOS performance wise, with ArkOS being the fastest and less dips for some reason. Double checked the BIOS files are in the correct location, so not really sure what's going on there.
+A firmware based upon JELOS and has a similar feature set to PlumOS/AmberELEC, supporting both Single Card and 2 Card Setups. More stable than PlumOS but has some strange performance issues. The main interface runs at a noticibly low framerate with no known way to resolve this. Based on repeated testing with the last two versions of the main ROCKNIX distribution, the N64 and Dreamcast performance is far worse compared to PlumOS and ArkOS. PSX and PSP are aprox the same as PlumOS performance wise, with ArkOS being the fastest and less dips for some reason. Double checked the BIOS files are in the correct location, so not really sure what's going on there.
 
 https://github.com/ROCKNIX/distribution
 
@@ -69,3 +71,10 @@ https://github.com/shauninman/MinUI
 <br>
 https://github.com/ryanmsartor/XU-Mini-M-Custom-MinUI-Paks (Additional Pak files for more systems, including Portmaster)
 
+<br>
+
+### ~ ArkOS ~
+
+An early test version of ArkOS was built and is available to download on the MagicX - ArkOS Dev Discord for those who want to try it. Various Hot Keys and Buttons are not configured. PSP performance is much better and has less framerate dips than other OS's but the button configuration is broken by default. This is only recommended for those who want to tweak and play around with an unconfigured OS.
+
+*Ask for the link in the # MagicX Discord Channel: https://discord.gg/retrohandhelds
