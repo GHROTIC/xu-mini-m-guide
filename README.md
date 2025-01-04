@@ -26,7 +26,7 @@
 - n0: Scraper Requires compatible Wifi or Ethernet USB Dongle. Dongle compatability varries based on OS. 
 - n1: Scraper is working on Stock Firmware V1 but broken on Stock Firmware V2.
 - n2: Rocknix has the option to immediately open a game and continue at the last auto save state when opening a rom file (Retroarch Only).
-- n3: Some Portmaster Games will not work due to outdated libraries. Requires additional Pak file from RY on MinUI. 
+- n3: Some Portmaster Games will not work due to outdated libraries. Requires additional Pak file from Ry to support Portmaster on MinUI. 
 - n4: Requires Ry Pak: https://github.com/ryanmsartor/XU-Mini-M-Custom-MinUI-Paks
 
 <br>
@@ -69,7 +69,7 @@ https://github.com/shauninman/Moss-magicmini (Install First)
 <br>
 https://github.com/shauninman/MinUI
 <br>
-https://github.com/ryanmsartor/XU-Mini-M-Custom-MinUI-Paks (Additional Pak files for more systems, including Portmaster)
+https://github.com/ryanmsartor/XU-Mini-M-Custom-MinUI-Paks (Ry provides Additional Pak files for more systems, including Portmaster)
 
 <br>
 
@@ -78,3 +78,13 @@ https://github.com/ryanmsartor/XU-Mini-M-Custom-MinUI-Paks (Additional Pak files
 An early test version of ArkOS was built and is available to download on the MagicX - ArkOS Dev Discord for those who want to try it. Various Hot Keys and Buttons are not configured. PSP performance is much better and has less framerate dips than other OS's but the button configuration is broken by default. This is only recommended for those who want to tweak and play around with an unconfigured OS.
 
 Download information available in the [#MagicX Discord Channel](https://discord.com/channels/741895796315914271/1231671960036184194/1309895866865291365)
+
+<br>
+
+## Customization/Themes:
+
+Many of the existing JELOS and ArkOS themes for the 640 x 480 resolution will work across all of the Emulation Station based Firmware but YMMV. The JELOS/ArkOS Theme Repository can be found here: https://github.com/Jetup13/Emulationstation-OGA-Theme-Gallery
+
+<br>
+
+My own Retrogirls fork of Art Book Next is also available here: https://github.com/GHROTIC/art-book-next-retrogirls-es/releases
