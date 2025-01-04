@@ -35,7 +35,7 @@
 
 ### ~ Stock ~
 
-Modified version of AmberELEC that removes many functions and options. PlumOS almost immediately replaced the stock software and little testing has been done using stock, thus there is limited support for this version. However, it is known that you will experience random system crashes when navigating the menus. The Software Developer that MagicX hired released a second version of the Firmware that increased the CPU Clock Speed slightly, while also breaking the Scraper for those who have Wifi/Ethernet Dongles.
+Modified version of the AmberELEC Firmware that removes many functions and settings. PlumOS almost immediately replaced this Stock Firmware and little testing has been done; limited support for this version. One known issue is that you will experience random system crashes while navigating the menus. The Software Developer that MagicX hired released a second version of the Firmware that increased the CPU Clock Speed slightly, but unfortunately broke the Scraper in the process.
 
 https://github.com/game-de-it/XU_MINI_M/releases/tag/XU_MINI_M_StockOS - Stock OS V1
 <br>
@@ -45,7 +45,10 @@ https://github.com/game-de-it/XU_MINI_M/releases/tag/XU_MINI_M_StockOS_20240811 
 
 ### ~ PlumOS ~
 
-The main firmware available for the MiniM that is a modification of the Stock Firmware, supporting both Single Card and 2 Card Setups. Starting with version 0.4, this modification was based off of the V2 version of the Stock Firmware that broke the Scraper functionality. The DTB file that determines the Max Clock Speed of the Ram, CPU and CPU has been set to an overclock by default. Depending on the quality of the Ram in your device, this can cause your device to crash unless you replace the DTB file with one using reduced Clock Speeds. Overall a generally usable Firmware but still has some quirks that cannot be fixed from it being based on the Stock Firmware. Personally I recommend using 0.10 Stable due to additional bugs that crept into the final 1.0 version. If your system crashes or does not always boot correctly, you can replace the DTB file on your SD1 card with one of the alternate versions found on the MinUI MOSS link.
+The main Firmware available for the MiniM that is a modification of the Stock Firmware, supporting both Single Card and 2 Card Setups. Starting with version 0.4, this modification was based off of the V2 version of the Stock Firmware that broke the Scraper functionality. The DTB file that determines the Max Clock Speed of the Ram, CPU and CPU has been set to an overclock by default. Depending on the quality of the Ram in your device, this can cause your device to crash unless you replace the DTB file with one using reduced Clock Speeds. 
+<br>
+
+Overall, this is a generally usable Firmware but still has some quirks that cannot be fixed due to the project being based on the Stock Firmware. I recommend using 0.10 Stable due to additional bugs that crept into the final 1.0 version. If your system crashes or does not always boot correctly, you can replace the DTB file on your SD1 card with one of the alternate versions found on the MinUI MOSS link.
 
 https://github.com/game-de-it/XU_MINI_M/releases/tag/plumOS_XU_MINI_M_0.10 (Download the three 0.10 Stable files and open .001 with 7zip)
 <br>
@@ -55,9 +58,11 @@ https://github.com/shauninman/Moss-magicmini (Try the DTB files here if your sys
 
 ### ~ ROCKNIX ~
 
-A firmware based upon JELOS and has a similar feature set to PlumOS/AmberELEC, supporting both Single Card and 2 Card Setups. More stable than PlumOS but has some strange performance issues. The main interface runs at a noticibly low framerate with no known way to resolve this. Based on repeated testing with the last two versions of the main ROCKNIX distribution, the N64 and Dreamcast performance is far worse compared to PlumOS and ArkOS. PSX and PSP are aprox the same as PlumOS performance wise, with ArkOS being the fastest and less dips for some reason. Double checked the BIOS files are in the correct location, so not really sure what's going on there.
+A Firmware based upon JELOS and has a similar feature set to PlumOS/AmberELEC, supporting both Single Card and 2 Card Setups. A stable Firmware option if you would like to use a Wifi/Ethernet USB Dongle for the Scraper or Retrachievements. Oddly the main User Interface runs at a noticibly low framerate with no known way to change this in the settings. Based on repeated testing with the last two versions of the main ROCKNIX distribution, the N64 and Dreamcast performance is far worse compared to other Firmware; PSX and PSP perform aproximately the same. This Firmware may be a good option if you have no plans to play any N64 or Dreamcast titles.
 
 https://github.com/ROCKNIX/distribution
+
+###### (Tests done with Bios Files, Mali and Panfrost GPU Drivers, CPU and GPU set to highest performance, CPU Overclock enabled)
 
 <br>
 
