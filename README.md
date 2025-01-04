@@ -31,7 +31,7 @@
 
 <br>
 
-## Detailed notes for each OS:
+## Notes for each OS:
 
 ### ~ Stock ~
 
