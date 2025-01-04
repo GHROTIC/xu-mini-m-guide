@@ -88,7 +88,7 @@ Download information available in the [#MagicX Discord Channel](https://discord.
 
 ## Customization/Themes:
 
-Many of the existing JELOS and ArkOS themes for the 640 x 480 resolution will work across all of the Emulation Station based Firmware but YMMV. The JELOS/ArkOS Theme Repository can be found here: https://github.com/Jetup13/Emulationstation-OGA-Theme-Gallery
+Many of the existing JELOS and ArkOS themes for the 640 x 480 resolution will work across Stock, PlumOS and ROCKNIX but YMMV. The JELOS/ArkOS Theme Repository can be found here: https://github.com/Jetup13/Emulationstation-OGA-Theme-Gallery
 
 <br>
 
