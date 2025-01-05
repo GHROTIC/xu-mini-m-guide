@@ -6,7 +6,7 @@
 
 <br>
   
-### ~ Quick Comparison Table of OS Features: ~
+### ~ Quick Comparison Table of Firmware Features: ~
 
 </div>
 
