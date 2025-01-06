@@ -93,3 +93,15 @@ Many of the existing JELOS and ArkOS themes for the 640 x 480 resolution will wo
 <br>
 
 My own Retrogirls fork of Art Book Next is also available here: https://github.com/GHROTIC/art-book-next-retrogirls-es/releases
+
+<br>
+
+## FAQ:
+
+Q1: Should I purchase the MagicX MiniM or the MagicX Mini Zero 28?
+<br>
+A1: If you enjoy experimenting with small devices and you are able to purchase the MiniM on sale, then it may be something to consider. However, even though the cost of the Mini28 will be higher(Aprox. $55 USD), MagicX has corrected many design flaws; such as the MicroSD card protruding from the shell and risking accidental ejection. Also, in some cases the D-Pad will work properly but for many people it requires a large amount of pressure to hit a diagonal direction. These issues are fixed in addition to a faster Processor and 1GB of faster DDR4 Ram(2133mhz, running at 1866mhz on stock software).
+
+<br>
+
+~ Guide In Progress.. ~
