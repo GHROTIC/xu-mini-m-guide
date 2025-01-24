@@ -112,7 +112,7 @@ Q1: Should I purchase the MagicX MiniM or the MagicX Mini Zero 28?
 
 A1: The MagicX MiniM can be an enjoyable handheld but all versions of the current firmware have noticeable issues. If you enjoy experimenting with these devices and you are able to purchase the MiniM on sale, then it may be something to consider. However, even though the cost of the Mini28 will be higher(Aprox. $55 USD), MagicX has corrected many design flaws; such as the MicroSD card protruding from the shell and risking accidental ejection. Also, in some cases the D-Pad will work properly but for many people it requires a large amount of pressure to hit a diagonal direction. These issues are fixed in addition to a faster Processor, 2GB of faster DDR4 1866mhz Ram and better designed buttons with rounded edges. 
 
-Another thing to consider is that the Stock OS for the Zero 28 is Android 10(Non-Touch) w/ Hotkey Navigation. At this time you have the option of MinUI or Gamma Core as an alternative, with more Community Firmware being worked on, such as MuOS.
+Another thing to consider is that the Stock OS for the Zero 28 is Android 10(Non-Touch) w/ Hotkey Navigation. At this time you have the option of MinUI(Linux) or Gamma Core(Android TV) as an alternative, with more Community Firmware being worked on, such as MuOS(Linux).
 
 <br>
 
