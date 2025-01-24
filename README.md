@@ -31,6 +31,15 @@
 
 <br>
 
+### Performance Testing:
+
+[Dreamcast (PlumOS)](https://docs.google.com/spreadsheets/d/e/2PACX-1vRA0rB9W96J_3Y57vl9kGSeiQTYB80dM1LOwPrW2wcXC-7lUwLjK_vUXydUDOUlAGYJ62GQWxg4eDBd/pubhtml)
+<br>
+[PSP (PlumOS)](https://docs.google.com/spreadsheets/d/e/2PACX-1vSX9Mcinj3PZe8gIyBt-HLdAdc9uOxxbGVLINe2Gi-GULrorNbumlYResiqtvsrhnVNXzdTksaPQGvU/pubhtml)
+
+
+<br>
+
 ## Notes for each OS:
 
 ### ~ Stock ~
