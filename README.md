@@ -15,6 +15,7 @@
 | Scraper*(n0): | Yes/No*(n1) | No(Broken) | Yes | No |
 | Game Switcher: | No | No | No | No |
 | Boot to Game: | No | No | Partial*(n2) | No |
+| Wifi Dongle Support | ? | Yes | Yes | No |
 | Portmaster: | No | Yes*(n3) | Yes | Yes*(n3) |
 | Dreamcast: | ? | Fair | Poor | N/A |
 | N64: | ? | Fair | Poor | Fair*(n4) |
