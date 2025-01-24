@@ -26,7 +26,7 @@
 - n0: Scraper Requires compatible Wifi or Ethernet USB Dongle. Dongle compatability varries based on OS. 
 - n1: Scraper is working on Stock Firmware V1 but broken on Stock Firmware V2.
 - n2: Rocknix has the option to immediately open a game and continue at the last auto save state when opening a rom file (Retroarch Only).
-- n3: Some Portmaster Games will not work due to outdated libraries. Requires the additional Pak file below(n4) to support Portmaster on MinUI. 
+- n3: Some Portmaster Games will not work due to outdated libraries. Requires the additional Pak below(n4) to support Portmaster on MinUI. 
 - n4: Requires Ry Pak: https://github.com/ryanmsartor/XU-Mini-M-Custom-MinUI-Paks
 
 <br>
