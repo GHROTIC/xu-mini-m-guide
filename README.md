@@ -82,7 +82,7 @@ https://github.com/ryanmsartor/XU-Mini-M-Custom-MinUI-Paks (Ry provides Addition
 
 An early test version of ArkOS was built and is available to download on the MagicX - ArkOS Dev Discord for those who want to try it. Various Hot Keys and Buttons are not configured. PSP performance is much better and has less framerate dips than other Firmware but the button configuration is broken by default. This is only recommended for those who want to tweak and play around with an experimental OS.
 
-Download information available in the [#MagicX Discord Channel](https://discord.com/channels/741895796315914271/1231671960036184194/1309895866865291365)
+Download information is available in the [#MagicX Discord Channel](https://discord.com/channels/741895796315914271/1231671960036184194/1309895866865291365)
 
 <br>
 
