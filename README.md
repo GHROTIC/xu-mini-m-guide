@@ -101,7 +101,23 @@ My own Retrogirls fork of Art Book Next is also available here: https://github.c
 Q1: Should I purchase the MagicX MiniM or the MagicX Mini Zero 28?
 <br>
 
-A1: If you enjoy experimenting with these devices and you are able to purchase the MiniM on sale, then it may be something to consider. However, even though the cost of the Mini28 will be higher(Aprox. $55 USD), MagicX has corrected many design flaws; such as the MicroSD card protruding from the shell and risking accidental ejection. Also, in some cases the D-Pad will work properly but for many people it requires a large amount of pressure to hit a diagonal direction. These issues are fixed in addition to a faster Processor and 1GB of faster DDR4 Ram(2133mhz, running at 1866mhz on stock software).
+A1: If you enjoy experimenting with these devices and you are able to purchase the MiniM on sale, then it may be something to consider. However, even though the cost of the Mini28 will be higher(Aprox. $55 USD), MagicX has corrected many design flaws; such as the MicroSD card protruding from the shell and risking accidental ejection. Also, in some cases the D-Pad will work properly but for many people it requires a large amount of pressure to hit a diagonal direction. These issues are fixed in addition to a faster Processor, 1GB of faster DDR4 Ram(2133mhz, running at 1866mhz on stock software) and better designed buttons with rounded edges. The Stock OS is Android 10(Non-Touch) based w/ Hotkey navigation with the option of MinUI or Gamma Core, with more Community Firmware being worked on such as MuOS.
+
+<br>
+
+## FAQ:
+
+Q2: What software should I flash firmware with?
+<br>
+
+A2: Generally it's suggested to use [Rufus](https://rufus.ie/en/) if you are on Windows, as it tends to have the best success rate for flashing in general. For MacOS you are limited to something like [Balena Etcher](https://etcher.balena.io/)
+
+<br>
+
+Q3: Should I use the Tape Fix on my D-Pad?
+<br>
+
+A3: Some people have had success in fixing D-Pad's with broken/poor diagonals by placing Painter's Tape under the D-Pad. Be aware that opening the shell of the MiniM will almost always break the clips used to hold the shell together. While it won't hurt the performance, the device will have seams and you may feel the shell move when pressure is applied near the edges. Examples of the fix can be found [here](https://discord.com/channels/741895796315914271/1231671960036184194/1268988801443823678) and [here](https://discord.com/channels/741895796315914271/1231671960036184194/1269305515679416450) in the #MagicX Discord Channel.
 
 <br>
 
