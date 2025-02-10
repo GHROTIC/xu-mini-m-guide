@@ -108,12 +108,12 @@ My own Retrogirls fork of Art Book Next is also available here: https://github.c
 
 ## FAQ:
 
-Q1: Should I purchase the MagicX MiniM or the MagicX Mini Zero 28?
+Q1: Should I purchase the MagicX Mini Zero 28 instead of the older MagicX MiniM? (UPDATED: 2-9-2025)
 <br>
 
-A1: The MagicX MiniM can be an enjoyable handheld but all versions of the current firmware have noticeable issues. If you enjoy experimenting with these devices and you are able to purchase the MiniM on sale, then it may be something to consider. However, even though the cost of the Mini28 will be higher(Aprox. $55 USD), MagicX has corrected many design flaws; such as the MicroSD card protruding from the shell and risking accidental ejection. Also, in some cases the D-Pad will work properly but for many people it requires a large amount of pressure to hit a diagonal direction. These issues are fixed in addition to a faster Processor(Allwinner A133p), 2GB of faster DDR4 1866mhz Ram and better designed buttons with rounded edges. 
+A1: The MagicX MiniM and the Zero 28 can be enjoyable handhelds but all versions of the current firmware have limitations for both. If you enjoy experimenting with these devices and you are able to purchase the MiniM on sale, then it may be something to consider. However, even though the cost of the Mini Zero28 will be higher(Aprox. $59 USD for the 64GB version), MagicX has corrected many design flaws; such as the MicroSD card protruding from the shell and risking accidental ejection. Also, in some cases the D-Pad will work properly but for many people it requires a large amount of pressure to hit a diagonal direction. These issues are fixed in addition to higher quality plastic, faster processor(Allwinner A133p), 2GB of faster DDR4 1866mhz Ram, Sleep Mode, and buttons with rounded edges. The processor and ram upgrades allow the Zero 28 to run a much larger amount of the N64 and Dreamcast Libraries in a playable/enjoyable state.
 
-Another thing to consider is that the Stock OS for the Zero 28 is Android 10(Non-Touch) w/ Hotkey Navigation. At this time you have the option of MinUI(Linux) or Gamma Core(Android TV) as an alternative, with more Community Firmware being worked on, such as MuOS(Linux).
+Another thing to consider is that the Stock Firmware for the Zero 28 is Android 10(Non-Touch) w/ Hotkey Navigation. For advanced users that want to add custom Android apps and modications, the hotkey based controls in addition to poor controller detection makes this a frustrating experience. For someone who wishes to just load up and play Retro Games, this is a non-issue with the Stock Firmware and makes it best suited to average users or as a gift console. However, Advanced Users have the option of MinUI(Linux) as an alternative firmware, with more Community Firmware being worked on, such as MuOS(Linux) and Gamma Core(AndroidTV). For the MagicX MiniM, most firmware development has ceased and we are limited to options that have limited features, random bugs or that require tweaks/modification to function. Due to this the MiniM is leaning more towards Advanced Users.
 
 <br>
 
@@ -124,7 +124,7 @@ A2: Generally it's suggested to use [Rufus](https://rufus.ie/en/) if you are on 
 
 <br>
 
-Q3: Should I use the Tape Fix on my D-Pad?
+Q3: Should I use the Tape Fix on my MagicX MiniM D-Pad?
 <br>
 
 A3: Some people have had success in fixing D-Pad's with broken/poor diagonals by placing Painter's Tape under the D-Pad. Be aware that opening the shell of the MiniM will almost always break the clips used to hold the shell together. While it won't hurt the performance, the device will have seams and you may feel the shell move when pressure is applied near the edges. Examples of the fix can be found [here](https://discord.com/channels/741895796315914271/1231671960036184194/1268988801443823678) and [here](https://discord.com/channels/741895796315914271/1231671960036184194/1269305515679416450) in the #MagicX Discord Channel.
