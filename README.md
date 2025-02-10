@@ -119,14 +119,14 @@ A1: The MagicX MiniM and the Zero 28 can be enjoyable handhelds but all versions
 
  Advanced Users have the option of MinUI(Linux) as an alternative firmware, with more Community Firmware being worked on, such as MuOS(Linux) and Gamma Core(AndroidTV). For the MagicX MiniM, most firmware development has ceased and we are limited to options that have limited features, random bugs or that require tweaks/modification to function. Due to this the MiniM is leaning more towards Advanced Users.
 
-<br>
+~<br>
 
 Q2: What software should I flash firmware with?
 <br>
 
 A2: Generally it's suggested to use [Rufus](https://rufus.ie/en/) if you are on Windows, as it tends to have the best success rate for flashing in general. For MacOS you are limited to something like [Balena Etcher](https://etcher.balena.io/)
 
-<br>
+~<br>
 
 Q3: Should I use the Tape Fix on my MagicX MiniM D-Pad?
 <br>
