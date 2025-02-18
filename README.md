@@ -119,7 +119,7 @@ Otherwise you will need to reflash PlumOS.
 
 <br>
 
-## FAQ:
+## General FAQ:
 
 Q1: Should I purchase the MagicX Mini Zero 28 instead of the older MagicX MiniM? (UPDATED: 2-9-2025)
 <br>
@@ -147,3 +147,10 @@ Q3: Should I use the Tape Fix on my MagicX MiniM D-Pad?
 A3: Some people have had success in fixing D-Pad's with broken/poor diagonals by placing Painter's Tape under the D-Pad. Be aware that opening the shell of the MiniM will almost always break the clips used to hold the shell together. While it won't hurt the performance, the device will have seams and you may feel the shell move when pressure is applied near the edges. Examples of the fix can be found [here](https://discord.com/channels/741895796315914271/1231671960036184194/1268988801443823678) and [here](https://discord.com/channels/741895796315914271/1231671960036184194/1269305515679416450) in the #MagicX Discord Channel.
 
 <br>
+
+
+<div align="center">
+  
+##### Thanks to Bobby the Cat, Fishku, Gamma, Hannah, Moto, Rich, Ry, Seaninman and all in the MagicX Discord. May the Schwartz Be With You!
+
+</div>
