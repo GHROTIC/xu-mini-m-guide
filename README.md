@@ -117,7 +117,7 @@ A1: The MagicX MiniM and the Zero 28 can be enjoyable handhelds but all versions
 
  Another thing to consider is that the Stock Firmware for the Zero 28 is Android 10(Non-Touch) w/ Hotkey Navigation. For advanced users that want to add custom Android apps and modications, the hotkey based controls in addition to poor controller detection makes this a frustrating experience. For someone who wishes to just load up and play Retro Games, this is a non-issue with the Stock Firmware and makes it best suited to average users or as a gift console. 
 
- Advanced Users have the option of MinUI(Linux) as an alternative firmware, with more Community Firmware being worked on, such as MuOS(Linux) and Gamma Core(AndroidTV). For the MagicX MiniM, most firmware development has ceased and we are limited to options that have limited features, random bugs or that require tweaks/modification to function. Due to this the MiniM is leaning more towards Advanced Users.
+ Advanced Users have the option of MinUI(Linux) as an alternative firmware, with more Community Firmware being worked on, such as MuOS(Linux) and Gamma Core(AndroidTV). For the MagicX MiniM, most firmware development has ceased and we are limited to options that have limited features, random bugs or that require tweaks/modification to function. Knulli has been announced for the MiniM but there has yet to be a public release. Due to this, the MiniM is leaning more towards Advanced Users.
 
 ~<br>
 
