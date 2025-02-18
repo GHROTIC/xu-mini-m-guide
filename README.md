@@ -124,7 +124,8 @@ Otherwise you will need to reflash PlumOS.
 
 Q2: Why does my Wifi Dongle not work with PlumOS?
 
-A1: PlumOS may not have the drivers for your specific USB Dongle. The current verified USB Dongles that work with PlumOS include the TP-Link Nano AC600(Archer T2U Nano), the generic green Wifi5+BT AC600 Driver Free (8821CU), the EDUP 802.11AC Dongle(RTL88x2BU) and the MT7601 802.11n Red Background w/ White N Logo (Unknown).
+A1: PlumOS may not have the drivers for your specific USB Dongle. The current verified USB Dongles that work with PlumOS include the TP-Link Nano AC600(Archer T2U Nano), the generic green Wifi5+BT AC600 Driver Free (8821CU), the EDUP 802.11AC Dongle(RTL88x2BU) and the MT7601 802.11n Red Background w/ White N Logo (Unknown). The images below should help you find them:
+![Dongles](https://github.com/GHROTIC/xu-mini-m-guide/blob/main/assets/preview/usbdonglecombo.png)
 
 <br>
 
