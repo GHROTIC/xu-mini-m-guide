@@ -61,7 +61,7 @@ https://github.com/game-de-it/XU_MINI_M/releases/tag/XU_MINI_M_StockOS_20240811 
 The main Firmware available for the MiniM that is a modification of the Stock Firmware, supporting both Single Card and 2 Card Setups. Starting with version 0.4, this modification was based off of the V2 version of the Stock Firmware that broke the Scraper functionality. The DTB file that determines the Max Clock Speed of the Ram, CPU and CPU has been set to an overclock by default. Depending on the quality of the Ram in your device, this can cause your device to crash unless you replace the DTB file with one using reduced Clock Speeds. Also, for some people PPSSPP becomes broken for PSP Emulation and games will only load through Retroarch directly with lower performance; the cause of this is currently unknown.
 <br>
 
-This firmware includes drivers for many Wifi Dongles and for some USB-C Wireless Earbuds. Overall, this is a generally usable Firmware but still has some quirks that cannot be fixed due to the project being based on the Stock Firmware. I recommend using 0.10 Stable due to additional bugs that crept into the final 1.0 version. If your system crashes or does not always boot correctly, you can replace the DTB file on your SD1 card with one of the alternate versions found on the MinUI MOSS link.
+ This firmware includes drivers for many Wifi Dongles and for some USB-C Wireless Earbuds. Overall, this is a generally usable Firmware but still has some quirks that cannot be fixed due to the project being based on the Stock Firmware. I recommend using 0.10 Stable due to additional bugs that crept into the final 1.0 version. If your system crashes or does not always boot correctly, you can replace the DTB file on your SD1 card with one of the alternate versions found on the MinUI MOSS link.
 
 https://github.com/game-de-it/XU_MINI_M/releases/tag/plumOS_XU_MINI_M_0.10 (Download the three 0.10 Stable files and open .001 with 7zip)
 <br>
@@ -111,28 +111,28 @@ My own Retrogirls fork of Art Book Next is also available here: https://github.c
 
 ## PlumOS Known Issues:
 
-#### Q1: I've enabled the Overclock setting on PlumOS and my device is stuck in a boot loop. Do I need to re-flash?
+Q1: I've enabled the Overclock setting on PlumOS and my device is stuck in a boot loop. Do I need to re-flash?
 
-#### A1: If you have access to a Linux PC to see the EXT4 partitions, you can modify the setting in STORAGE > .config/emulationstation/es_settings.cfg to:
+A1: If you have access to a Linux PC to see the EXT4 partitions, you can modify the setting in STORAGE > .config/emulationstation/es_settings.cfg to:
 
 `<string name="Overclock" value="none" />`
 
-#### Otherwise you will need to reflash PlumOS.
+Otherwise you will need to reflash PlumOS.
 
 ~ <br>
 
-#### Q2: Why does my Wifi Dongle not work with PlumOS?
+Q2: Why does my Wifi Dongle not work with PlumOS?
 
-#### A2: PlumOS may not have the drivers for your specific USB Dongle. The current verified USB Dongles that work with PlumOS include the TP-Link Nano AC600(Archer T2U Nano), the generic green Wifi5+BT AC600 Driver Free (8821CU), the EDUP 802.11AC Dongle(RTL88x2BU) and the MT7601 802.11n Red Background w/ White N Logo (Unknown). The images below should help you find them:
+A2: PlumOS may not have the drivers for your specific USB Dongle. The current verified USB Dongles that work with PlumOS include the TP-Link Nano AC600(Archer T2U Nano), the generic green Wifi5+BT AC600 Driver Free (8821CU), the EDUP 802.11AC Dongle(RTL88x2BU) and the MT7601 802.11n Red Background w/ White N Logo (Unknown). The images below should help you find them:
 <br>
 
 ![Dongles](https://github.com/GHROTIC/xu-mini-m-guide/blob/main/assets/preview/usbdonglecombo.png)
 
 ~ <br>
 
-#### Q3: How do I open the menu in Drastic(DS) on PlumOS?
+Q3: How do I open the menu in Drastic(DS) on PlumOS?
 
-#### A3: There is a bug where it's not using the correct configuration file for the controls. Hannah in the MagicX Discord has provided the following instructions to fix the issue:
+A3: There is a bug where it's not using the correct configuration file for the controls. Hannah in the MagicX Discord has provided the following instructions to fix the issue:
 
 #### Requirements
 * SD Card Reader
@@ -160,27 +160,27 @@ My own Retrogirls fork of Art Book Next is also available here: https://github.c
 
 ## General FAQ:
 
-#### Q1: Should I purchase the MagicX Mini Zero 28 instead of the older MagicX MiniM? (UPDATED: 2-9-2025)
+Q1: Should I purchase the MagicX Mini Zero 28 instead of the older MagicX MiniM? (UPDATED: 2-9-2025)
 
-#### A1: The MagicX MiniM and the Zero 28 can be enjoyable handhelds but all versions of the current firmware have limitations for both. If you enjoy experimenting with these devices and you are able to purchase the MiniM on sale, then it may be something to consider. However, even though the cost of the Mini Zero28 will be higher(Aprox. $59 USD for the 64GB version), MagicX has corrected many design flaws; such as the MicroSD card protruding from the shell and risking accidental ejection. Also, in some cases the D-Pad will work properly but for many people it requires a large amount of pressure to hit a diagonal direction. 
+A1: The MagicX MiniM and the Zero 28 can be enjoyable handhelds but all versions of the current firmware have limitations for both. If you enjoy experimenting with these devices and you are able to purchase the MiniM on sale, then it may be something to consider. However, even though the cost of the Mini Zero28 will be higher(Aprox. $59 USD for the 64GB version), MagicX has corrected many design flaws; such as the MicroSD card protruding from the shell and risking accidental ejection. Also, in some cases the D-Pad will work properly but for many people it requires a large amount of pressure to hit a diagonal direction. 
 
-####  These issues are fixed in addition to higher quality plastic, faster processor(Allwinner A133p), 2GB of faster DDR4 1866mhz Ram, Sleep Mode, and buttons with rounded edges. The processor and ram upgrades allow the Zero 28 to run a much larger amount of the N64 and Dreamcast Libraries in a playable/enjoyable state.
+ These issues are fixed in addition to higher quality plastic, faster processor(Allwinner A133p), 2GB of faster DDR4 1866mhz Ram, Sleep Mode, and buttons with rounded edges. The processor and ram upgrades allow the Zero 28 to run a much larger amount of the N64 and Dreamcast Libraries in a playable/enjoyable state.
 
-####  Another thing to consider is that the Stock Firmware for the Zero 28 is Android 10(Non-Touch) w/ Hotkey Navigation. For advanced users that want to add custom Android apps and modications, the hotkey based controls in addition to poor controller detection makes this a frustrating experience. For someone who wishes to just load up and play Retro Games, this is a non-issue with the Stock Firmware and makes it best suited to average users or as a gift console. 
+ Another thing to consider is that the Stock Firmware for the Zero 28 is Android 10(Non-Touch) w/ Hotkey Navigation. For advanced users that want to add custom Android apps and modications, the hotkey based controls in addition to poor controller detection makes this a frustrating experience. For someone who wishes to just load up and play Retro Games, this is a non-issue with the Stock Firmware and makes it best suited to average users or as a gift console. 
 
-####  Advanced Users have the option of MinUI(Linux) as an alternative firmware, with more Community Firmware being worked on, such as MuOS(Linux) and Gamma Core(AndroidTV). For the MagicX MiniM, most firmware development has ceased and we are limited to options that have limited features, random bugs or that require tweaks/modification to function. Knulli has been announced for the MiniM but there has yet to be a public release. Due to this, the MiniM is leaning more towards Advanced Users.
-
-~<br>
-
-#### Q2: What software should I flash firmware with?
-
-#### A2: Generally it's suggested to use [Rufus](https://rufus.ie/en/) if you are on Windows, as it tends to have the best success rate for flashing in general. For MacOS you are limited to something like [Balena Etcher](https://etcher.balena.io/)
+ Advanced Users have the option of MinUI(Linux) as an alternative firmware, with more Community Firmware being worked on, such as MuOS(Linux) and Gamma Core(AndroidTV). For the MagicX MiniM, most firmware development has ceased and we are limited to options that have limited features, random bugs or that require tweaks/modification to function. Knulli has been announced for the MiniM but there has yet to be a public release. Due to this, the MiniM is leaning more towards Advanced Users.
 
 ~<br>
 
-#### Q3: Should I use the Tape Fix on my MagicX MiniM D-Pad?
+Q2: What software should I flash firmware with?
 
-#### A3: Some people have had success in fixing D-Pad's with broken/poor diagonals by placing Painter's Tape under the D-Pad. Be aware that opening the shell of the MiniM will almost always break the clips used to hold the shell together. While it won't hurt the performance, the device will have seams and you may feel the shell move when pressure is applied near the edges. Examples of the fix can be found [here](https://discord.com/channels/741895796315914271/1231671960036184194/1268988801443823678) and [here](https://discord.com/channels/741895796315914271/1231671960036184194/1269305515679416450) in the #MagicX Discord Channel.
+A2: Generally it's suggested to use [Rufus](https://rufus.ie/en/) if you are on Windows, as it tends to have the best success rate for flashing in general. For MacOS you are limited to something like [Balena Etcher](https://etcher.balena.io/)
+
+~<br>
+
+Q3: Should I use the Tape Fix on my MagicX MiniM D-Pad?
+
+A3: Some people have had success in fixing D-Pad's with broken/poor diagonals by placing Painter's Tape under the D-Pad. Be aware that opening the shell of the MiniM will almost always break the clips used to hold the shell together. While it won't hurt the performance, the device will have seams and you may feel the shell move when pressure is applied near the edges. Examples of the fix can be found [here](https://discord.com/channels/741895796315914271/1231671960036184194/1268988801443823678) and [here](https://discord.com/channels/741895796315914271/1231671960036184194/1269305515679416450) in the #MagicX Discord Channel.
 
 <br>
 
