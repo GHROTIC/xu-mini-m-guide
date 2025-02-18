@@ -1,4 +1,7 @@
 <div align="center">
+
+###### DISCLAIMER: I try to verify information but I'm not perfect and things change daily. Please me know @GHROTIC in the MagicX Discord for any corrections.
+
   
   # **-== Xu Mini M Guide==-**
 
@@ -151,6 +154,6 @@ A3: Some people have had success in fixing D-Pad's with broken/poor diagonals by
 
 <div align="center">
   
-##### Thanks to Bobby the Cat, Fishku, Gamma, Hannah, Moto, Rich, Ry, Seaninman and all in the MagicX Discord. May the Schwartz Be With You!
+##### Thanks to Bobby the Cat, Fishku, Gamma, Hannah, Moto, Rich, Ry, Seaninman, Snake and all in the MagicX Discord. May the Schwartz Be With You!
 
 </div>
