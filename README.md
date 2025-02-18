@@ -106,6 +106,19 @@ My own Retrogirls fork of Art Book Next is also available here: https://github.c
 
 <br>
 
+## PlumOS Known Issues:
+
+Q1: I've enabled the Overclock setting on PlumOS and my device is stuck in a boot loop. Do I need to re-flash?
+<br>
+
+A1: If you have access to a Linux PC to see the EXT4 partitions, you can modify the setting in STORAGE > .config/emulationstation/es_settings.cfg to:
+
+`<string name="Overclock" value="none" />`
+
+Otherwise you will need to reflash PlumOS.
+
+<br>
+
 ## FAQ:
 
 Q1: Should I purchase the MagicX Mini Zero 28 instead of the older MagicX MiniM? (UPDATED: 2-9-2025)
@@ -132,16 +145,5 @@ Q3: Should I use the Tape Fix on my MagicX MiniM D-Pad?
 <br>
 
 A3: Some people have had success in fixing D-Pad's with broken/poor diagonals by placing Painter's Tape under the D-Pad. Be aware that opening the shell of the MiniM will almost always break the clips used to hold the shell together. While it won't hurt the performance, the device will have seams and you may feel the shell move when pressure is applied near the edges. Examples of the fix can be found [here](https://discord.com/channels/741895796315914271/1231671960036184194/1268988801443823678) and [here](https://discord.com/channels/741895796315914271/1231671960036184194/1269305515679416450) in the #MagicX Discord Channel.
-
-~<br>
-
-Q4: I've enabled the Overclock setting on PlumOS and my device is stuck in a boot loop. Do I need to re-flash?
-<br>
-
-A4: If you have access to a Linux PC to see the EXT4 partitions, you can modify the setting in STORAGE > .config/emulationstation/es_settings.cfg to:
-
-`<string name="Overclock" value="none" />`
-
-Otherwise you will need to reflash PlumOS.
 
 <br>
