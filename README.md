@@ -120,6 +120,12 @@ A1: If you have access to a Linux PC to see the EXT4 partitions, you can modify 
 
 Otherwise you will need to reflash PlumOS.
 
+~ <br>
+
+Q2: Why does my Wifi Dongle not work with PlumOS?
+
+A1: The current known USB Dongles that work with PlumOS include the TP-Link Nano AC600(Archer T2U Nano), the generic green Wifi5+BT AC600 Driver Free (8821CU) and the EDUP 802.11AC Dongle(RTL88x2BU).
+
 <br>
 
 ## General FAQ:
