@@ -1,6 +1,6 @@
 <div align="center">
 
-###### DISCLAIMER: I try to verify information but I'm not perfect and things change daily. Please me know @GHROTIC in the MagicX Discord for any corrections.
+###### DISCLAIMER: I try to verify information but I'm not perfect and things change daily.<br>Please let me know @GHROTIC in the MagicX Discord if you notice any errors.
 
   
   # **-== Xu Mini M Guide==-**
