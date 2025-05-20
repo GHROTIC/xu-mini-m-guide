@@ -32,7 +32,7 @@
 - n2: Rocknix has the option to immediately open a game and continue at the last auto save state when opening a rom file (Retroarch Only).
 - n3: Some Portmaster Games will not work due to outdated libraries. Requires the additional Pak below(n4) to support Portmaster on MinUI. 
 - n4: Requires Ry Pak: https://github.com/ryanmsartor/XU-Mini-M-Custom-MinUI-Paks
-- Rocknix has better performance than PlumOS but some minor audio skipping observed during testing.
+- n5: Rocknix has better performance than PlumOS but some minor audio skipping observed during testing.
 
 <br>
 
