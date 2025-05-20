@@ -167,9 +167,11 @@ Q1: How do I fix the controls for Mupen64 Standalone?
 
 A1: You will have to access the main SD1 Micro SD Card with Linux, USB Network Gadget/File Transfer Gadget or SSH in with something like Filezilla. Find the Mini M Controller config(near the bottom) in /storage/.config/mupen64plus/custominput.ini and change it to:
 
-`[XU Mini M Gamepad]
-plugged = True
-mouse = False
+
+```
+[XU Mini M Gamepad]
+plugged = True  
+mouse = False  
 AnalogDeadzone = 0,0
 AnalogPeak = 22000, 22000
 DPad R = button(15)
@@ -190,17 +192,18 @@ Mempak switch =
 Rumblepak switch =
 #Analog axis configuration mappings
 X Axis = axis(1-,1+)
-Y Axis = axis(0+,0-)`
+Y Axis = axis(0+,0-)
+```
 
 ~ <br>
 
 Q2: How do I fix the Analog Stick in PPSSPP?
 
 A2: Press the menu button and go to Settings -> Controls -> Calibrate Analog Stick. Recommended settings to change(YMMV):
-
+```
 Deadzone Radius: 0.01
 Sensitivity Scale: 1.66
-
+```
 <br>
 
 ## General FAQ:
