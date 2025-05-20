@@ -165,7 +165,7 @@ A3: There is a bug where it's not using the correct configuration file for the c
 
 Q1: How do I fix the controls for Mupen64 Standalone?
 
-A1: You will have to access the main SD1 with Linux or SSH in with something like Filezilla. Change the Mini M config(near the bottom) in /storage/.config/mupen64plus/custominput.ini to:
+A1: You will have to access the main SD1 Micro SD Card with Linux, USB Network Gadget/File Transfer Gadget or SSH in with something like Filezilla. Find the Mini M Controller config(near the bottom) in /storage/.config/mupen64plus/custominput.ini and change it to:
 
 `[XU Mini M Gamepad]
 plugged = True
