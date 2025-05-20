@@ -1,6 +1,6 @@
 <div align="center">
 
-###### DISCLAIMER: I try to verify information but I'm not perfect and things change daily.<br>Please let me know @GHROTIC in the MagicX Discord if you notice any errors.
+###### DISCLAIMER: I try to verify information but I'm not perfect and things change daily.<br>Please let me know @GHROTIC in the MagicX Discord if you notice any errors. Guide last updated on May 19th, 2025.
 
   
   # **-== Xu Mini M Guide==-**
@@ -21,8 +21,8 @@
 | Wifi Dongle Support | ? | Yes | Yes | No |
 | Portmaster: | No | Yes*(n3) | Yes | Yes*(n3) |
 | Dreamcast: | ? | Fair | Poor | N/A |
-| N64: | ? | Fair | Poor | Fair*(n4) |
-| PSP: | ? | Fair | Fair | N/A |
+| N64: | ? | Fair | Fair | Fair*(n4) |
+| PSP: | ? | Fair | Good*(n5) | N/A |
 | PSX: | ? | Good | Good | Good |
 
 
@@ -32,6 +32,7 @@
 - n2: Rocknix has the option to immediately open a game and continue at the last auto save state when opening a rom file (Retroarch Only).
 - n3: Some Portmaster Games will not work due to outdated libraries. Requires the additional Pak below(n4) to support Portmaster on MinUI. 
 - n4: Requires Ry Pak: https://github.com/ryanmsartor/XU-Mini-M-Custom-MinUI-Paks
+- Rocknix has better performance than PlumOS but some minor audio skipping observed during testing.
 
 <br>
 
@@ -71,11 +72,11 @@ https://github.com/shauninman/Moss-magicmini (Try the DTB files here if your sys
 
 ### ~ ROCKNIX ~
 
-A Firmware based upon JELOS and has a similar feature set to PlumOS/AmberELEC, supporting both Single Card and 2 Card Setups. A stable Firmware option if you would like to use a Wifi/Ethernet USB Dongle for the Scraper or Retroachievements. Oddly the main User Interface runs at a noticibly low framerate with no known way to change this in the settings. Based on repeated testing with the last two versions of the main ROCKNIX distribution, the N64 and Dreamcast performance is far worse compared to other Firmware; PSX and PSP perform aproximately the same. This Firmware may be a good option if you have no plans to play any N64 or Dreamcast titles.
+A Firmware based upon JELOS and has a similar feature set to PlumOS/AmberELEC, supporting both Single Card and 2 Card Setups(single Card setup requires Linux or a wireless dongle to transfer files due to EXT4 Parition). A stable Firmware option if you want the visual appeal of Emulation Station and the ability to use a Wifi/Ethernet USB Dongle for the Scraper or Retroachievements. Based on testing the latest May release of ROCKNIX, the Dreamcast performance is far worse compared to PlumOS and I would consider it unplayable. Also, the controller configuration for MupenN64 Standalone is incorrect and PPSSPP needs analog stick settings modified, but these are minor issues(Fixes are listed below in the RockNIX Known Issues section). Considering that most of the issues with this firmware are resolved, I would currently recommend it over others.
 
 https://github.com/ROCKNIX/distribution
 
-###### (Tests done with Bios Files, Mali and Panfrost GPU Drivers, CPU and GPU set to highest performance, CPU Overclock enabled)
+###### (Tests done with Bios Files, Mali GPU Drivers, CPU and GPU set to highest performance, CPU Overclock enabled)
 
 <br>
 
@@ -155,6 +156,48 @@ A3: There is a bug where it's not using the correct configuration file for the c
 4. Replace the config:
   * Navigate to `gamedata\drastic\aarch64\drastic\config`
   * Overwrite the existing `drastic.cfg` with the one from the archive
+
+<br>
+
+## RockNIX Known Issues:
+
+Q1: How do I fix the controls for Mupen64 Standalone?
+
+A1: You will have to access the main SD1 with Linux or SSH in with something like Filezilla. Change the Mini M config(near the bottom) in /storage/.config/mupen64plus/custominput.ini to:
+
+`[XU Mini M Gamepad]
+plugged = True
+mouse = False
+AnalogDeadzone = 0,0
+AnalogPeak = 22000, 22000
+DPad R = button(15)
+DPad L = button(14)
+DPad D = button(13)
+DPad U = button(12)
+Start = button(9)
+Z Trig = button(6)
+B Button = button(3)
+A Button = button(0)
+C Button R = axis(3+)
+C Button L = axis(3-)
+C Button D = axis(2-)
+C Button U = axis(2+)
+R Trig = button(5)
+L Trig = button(4)
+Mempak switch =
+Rumblepak switch =
+#Analog axis configuration mappings
+X Axis = axis(1-,1+)
+Y Axis = axis(0+,0-)`
+
+~ <br>
+
+Q2: How do I fix the Analog Stick in PPSSPP?
+
+A2: Press the menu button and go to Settings -> Controls -> Calibrate Analog Stick. Recommended settings to change(YMMV):
+
+Deadzone Radius: 0.01
+Sensitivity Scale: 1.66
 
 <br>
 
