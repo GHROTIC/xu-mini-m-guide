@@ -84,13 +84,13 @@ https://github.com/ROCKNIX/distribution
 
 ### ~ MinUI ~
 
-The MOSS version is based off of a cleaned/stripped version of the Stock Firmware and requires a 2 MicroSD Card setup. MinUI touts a very minimal interface for those who just want to play games without distraction and by default supports a small selection of the most popular retro consoles up to PSX. Some additional systems can be added via Pak files. The base version comes with a minor overclock, similar to PlumOS but Additional DTB files are provided in case there are any issues.
+The MOSS version is based off of a cleaned/stripped version of the Stock Firmware and requires a 2 MicroSD Card setup unless you use Ry's modification(listed below). MinUI touts a very minimal interface for those who just want to play games without distraction and by default supports a small selection of the most popular retro consoles up to PSX. Some additional systems can be added via Pak files. The base version comes with a minor overclock, similar to PlumOS but Additional DTB files are provided in case there are any issues.
 
 https://github.com/shauninman/Moss-magicmini (Install First)
 <br>
 https://github.com/shauninman/MinUI
 <br>
-https://github.com/ryanmsartor/XU-Mini-M-Custom-MinUI-Paks (Ry provides Additional Pak files for more systems, including Portmaster)
+https://github.com/ryanmsartor/XU-Mini-M-Custom-MinUI-Paks - Ry provides Additional Pak files for more systems, including Portmaster. You can find his Single Card SD Setup Mod here: https://github.com/ryanmsartor/XU-Mini-M-MinUI-Single-Card-Setup-Mod
 
 <br>
 
